@@ -1,0 +1,189 @@
+* {
+  font-family: "IBM Plex Mono", monospace;
+  color: white; /* Default text color is white for the colored boxes */
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: white; /* Dark background for the whole page */
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'menu main main main main main'
+    'footer footer footer footer footer footer'
+    'gif gif gif gif gif gif';
+  gap: 10px;
+  background-color: #fff; 
+  padding: 10px;
+  /*max-width: 1200px; 
+  /*margin: 0 auto;*/
+}
+
+.grid-container > div {
+  padding: 20px;
+  border-radius: 6px;
+}
+
+.item1 {
+  background-color: #279147; /* Green */
+  grid-area: header;
+}
+
+.item2 {
+  background-color: #dec314; /* Yellow */
+  grid-area: menu;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.item3 {
+  background-color: #14a2f5; /* Blue */
+  grid-area: main;
+}
+
+.item5 {
+  background-color: #eb4034; /* Red */
+  grid-area: footer;
+}
+
+.item6 {
+  background-color: white; 
+  grid-area: gif;
+  padding: 10px; 
+}
+
+.full-gif {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.project-grid-home {
+    display: flex; /* Enables flexible arrangement */
+    flex-wrap: wrap; /* Allows the items to break into multiple rows */
+    gap: 10px; 
+    margin-top: 15px;
+}
+
+.project-link {
+    flex-grow: 1; 
+    /* First 4 projects take up ~25% width each */
+    width: calc(25% - 8px); 
+    
+    background-color: rgba(0, 0, 0, 0.2); /* Semi-transparent background */
+    padding: 15px 10px;
+    text-align: center;
+    border-radius: 4px;
+    font-size: 0.85em;
+    font-weight: 500;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.project-grid-home .project-link:nth-child(n+5) {
+    width: calc(33.333% - 7px);
+}
+
+.project-link:hover {
+    background-color: white; 
+    color: #14a2f5; /* Blue text on white hover */
+}
+
+.project-header, 
+.about-header, 
+.reflections-header {
+  background-color: #279147; 
+  padding: 30px 40px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.back-link {
+  color: #dec314; 
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.about-main, 
+.reflections-main {
+  max-width: 1000px; 
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.section {
+  background-color: #14a2f5;
+  padding: 30px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.project-main {
+  max-width: 1000px; 
+  margin: 0 auto; 
+  padding: 20px;
+}
+
+.p5-sketch-embed {
+    padding: 0;
+    margin: 0; 
+    margin-bottom: 20px; 
+    width: 100%; 
+}
+
+.p5-sketch-embed iframe {
+  width: 100%;
+  display: block;
+  border: none;
+}
+
+.project-details {
+  background-color: #dec314;
+  padding: 30px;
+  border-radius: 6px;
+  color: white; 
+}
+.project-details h2, .project-details p {
+  color: white; 
+}
+.project-navigation {
+  display: flex; 
+  justify-content: space-between; 
+  margin-top: 2em; 
+  padding-top: 1em; 
+  border-top: 1px solid #eee; 
+}
+
+/* Base style for the navigation links */
+.nav-link {
+  text-decoration: none; 
+  padding: 0.5em 1em;
+  font-weight: 500;
+  color: #333;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+  color: #000; 
+}
+
+.next-link {
+  text-align: right;
+}
+
+.prev-link {
+  text-align: left;
+}
