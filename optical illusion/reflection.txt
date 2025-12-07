@@ -1,0 +1,20 @@
+Sabrina Tesalona
+A description of your project idea including context and visual strategy you have employed.
+
+I knew I wanted to make something radial because those were the optical illusions I gravitated towards the most and I liked the concept of motion and color. My project idea was then to create multi-colored orbs that would loop around a circular path. They would look like they're moving up and down, which would create an optical illusion of smaller rings rotating within a larger ring. Since the movement is controlled with nested for loops, the colors shift through the rainbow to make it look like it's flowing.
+
+Describe the process of researching, designing, and fine-tuning your optical illusion.
+
+In my process of researching, from my last submitted work during our open lab, I followed a youtube tutorial that would create an optical illusion using 4 white rings to spin within the confine of a larger white ring. However, I wanted to make it my own and the work felt a bit too advanced because it would utilize a classifier and would include the use of adding another file within the sketch to link the code. I liked the concept of what was done, but I wanted to simplify it and be something I would be able to do using the concepts I already knew. I used nested for loops to organize the structure: one loop would control how many rings there are, while the inner loop would control how many orbs appear on each ring. To make the illusion more dynamic, I also added if/else statements that would make the orbs change shape between two sizes. When it came to color, I wanted to make a flowing gradient, so referencing the P5.js library, I used HSB mode, so I could easily cycle through hues and maintain consistent brightness and saturation.
+
+How might your optical illusion get deployed in the world around you? 
+
+I think maybe it could be used to visualize music, maybe the flow of the orbs would differ based on the beat or waves of sound and notes.
+
+May it be incorporated into a browser extension? 
+
+I don't think it would be very useful as a browser extension, but it's nice to look at.
+
+Can it possibly be turned into a piece of wearable?
+
+Maybe for a shirt it could be turned into a piece of wearable. I think it kind of looks like that one logo that Coldplay made for Paradise. 

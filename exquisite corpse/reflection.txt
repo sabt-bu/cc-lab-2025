@@ -1,0 +1,18 @@
+Your p5 sketch (embedded iframe)
+originalsketch.png
+Background story: A girl who owns a cafe with her cat. 
+
+Your partners’ names
+Yuni Jung
+Patrick Glavee
+
+Your design process. Include the sketches and background stories you’ve received
+The sketch that Yuni gave me was a unicorn who is searching for a rainbow, while Patrick's is an intern at an ad agency on his first day. I liked how Patrick's in comparison to ours was an 8-bit, so it seemed fun to make my own 8-bit character combining all three of ours. It reminded me of Undertale. It was easy to refer to P5's reference library to include a tinted image as reference when drawing, but a friend from another section inspired me to add grid lines to make it easier to imagine where to place each square. 
+
+A new background story you’re creating based on the collectively assembled information
+
+A barista girl who is half unicorn is at her first day of work at the rainbow cafe. She dreams to work in advertising, but she still has a long way to go. 
+
+Your assignment reflections
+
+Overall, the assignment was pretty relaxing. I probably could've made my life a ton easier and just make an array of a pixel map for my drawing, but I liked the action of going square by square. 

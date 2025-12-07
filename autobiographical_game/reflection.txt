@@ -1,0 +1,25 @@
+Autobiographical Game
+
+Your Proposal:
+
+1.Miffy the rabbit wants to have a picnic with Boris the teddy bear.
+2.Miffy leaves her house.
+3.She first visits the matcha cart and talks to the owner, a black-and-white cat, ordering two hojicha lattes.
+4.Next, Miffy goes to the fruit stand, talks to the owner, a white dog, and buys two oranges.
+5.On her way to Boris’s, Miffy sees a flower stand. Using her remaining money, she buys a bouquet from the owner, an elephant, and chats with them.
+6.Miffy finally arrives at Boris’s house, ready for a picnic.
+7.They enjoy their picnic together with the lattes, oranges, and flowers.
+
+Assignment Reflections:
+
+Gray-boxing:
+A major challenge in creating the game’s foundation was managing scene transitions. After exploring tutorials and receiving help from a peer, I was able to figure it out, and the rest of the process became easier because I could also reference previous assignments. It was incredibly helpful to see how each project built upon the last, and this experience also guided my approach to setting up my Final Project. Some of the feedback I received from a peer though when I first showed it to someone was that I should be clearer on the order of which location Miffy should go to, and so, I made the instructions a bit more clearer as well as highlighting the location for the player to travel to. 
+
+Final Version:
+After submitting the gray-box version, I added missing requirements like the Character class and polished the visuals to make the game personally meaningful. I also added collision detection for obstacles like the lake. To manage interactions with buildings and NPCs, I used a proximity check. If Miffy was too far, the console displayed a debugging message (console.log("Get closer to the building first!")). This simple tool allowed me to test interactions, track Miffy’s position, and ensure scenes triggered correctly. Breaking the game into modules such as movement, dialogue, scene transitions, inventory, and sound made development a much easier process. I also handdrew the characters and locations using Procreate to have the childish-like feel that I typically like in games.
+
+Miffy represents my Chinese zodiac sign, and Boris reflects a close friend. Miffy’s house is inspired by my home, and Boris’s house mirrors my boyfriend’s. Dialogue from Miffy’s mom mirrors the messages I receive daily, and the lake references a familiar place from my high school in Florida.
+
+The matcha cart is inspired by a café where I worked after leaving an agency, and the cat owner reflects my own cat, Joaquin. The fruit stand features a white dog inspired by my pet, Chubby, and the oranges reference The Orange, a poetry book about human connection. The flower stand includes an elephant shopkeeper, inspired by my mom’s favorite animal and a stuffed elephant I bought while studying abroad, and hydrangeas, my favorite flower, recalling a joyful trip to Cape Cod.
+
+Centering the game around a picnic reflects one of my favorite activities with friends, made even more meaningful during the pandemic. The visual layout and sound design draw inspiration from Pokémon Diamond, combining childhood nostalgia with personal storytelling. I also included "Bad Day" by Wave to Earth because it's a song that my boyfriend and I like a lot. Overall, building this game allowed me to merge technical skills, debugging strategies, and autobiographical storytelling into an interactive experience that is both functional and meaningful.

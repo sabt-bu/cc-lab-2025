@@ -1,0 +1,58 @@
+Pseudocode: PKD Clock
+
+Initialize variables:
+age = 26
+hydration = 0
+gameOver = false (boolean to track if the game is over)
+isHydrated = false (boolean to track if the player just drank water)
+lastUpdateTime = 0 (to track time elapsed with millis())
+
+Setup canvas:
+Create canvas 400x400
+Set text alignment to CENTER horizontally and vertically
+Initialize lastUpdateTime = millis()
+
+Main draw loop:
+Clear background
+
+Display instructions at the top
+Split into multiple lines for wrapping
+Each line centered horizontally
+
+IF game is NOT over (gameOver == false)
+Calculate elapsed time since lastUpdateTime using millis()
+IF elapsed >= 1 second (1000 ms):
+Increase age by 1
+Update lastUpdateTime
+
+IF age >= 57:
+Set age = 57
+Set gameOver = true
+Decrease hydration slowly over time
+
+Calculate kidney color using map(hydration, 0, 100, 100, 255)
+Draw left kidney (rotated ellipse)
+Draw right kidney (mirror of left)
+Draw connecting tube between kidneys (pale yellow)
+
+Display current age and years left until 57
+Draw hydration progress bar
+
+Display hydration status text:
+IF isHydrated == true → show “Hydrated!”
+ELSE → show “Drink water!”
+ELSE (gameOver == true)
+Display game-over text in multiple lines
+
+Lines are centered horizontally and vertically
+Controls (keyPressed)
+IF SPACE is pressed:
+Increase hydration (max 100)
+Set isHydrated = true
+
+IF R is pressed:
+Reset age = 25
+Reset hydration = 0
+Reset gameOver = false
+Reset isHydrated = false
+Reset lastUpdateTime = millis()

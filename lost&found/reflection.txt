@@ -1,0 +1,55 @@
+p5 sketch url - https://editor.p5js.org/sabtesalona/sketches/_6pgsW3tB
+
+Name: Sabrina Tesalona
+Partner's Name: Patrick Edem Glavee 
+Object description received: Sculpture in Eyre Square
+
+The language my partner used to describe the image: "Eyre Square is the central square/park in Galway city. The sculpture in Eyre Square is a dynamic, semi-abstract brown copper-y metal form that visually represents the sails of a traditional Galway Hooker boat. The boat is a classic sail boat with the triple sails overlapping. Crafted from a copper-hued material, its vertical, curving planes rise from a central stage. The surface has a weathered, textural quality. Its bold, geometric lines contrasts the park space around it"
+
+My interpretation of the image: I imagined 3 tall brown triangles intersecting in the center of a park. 
+
+The depiction of the image using code: As a beginner coder, I wanted to include notes while pseudocoding to focus on the task. 
+function setup() {
+  createCanvas(400, 400);
+}
+
+function draw() {
+  // set background blue for sky
+  background(135, 206, 235);
+
+  //make rectangle green for grass
+  noStroke();
+  fill(34,139,34);
+  rect(0,height/2,width);
+  
+  //draw 3 triangles that slightly overlap with each other amongst the grass
+  fill(139, 69, 19);
+  blendMode(MULTIPLY);
+  
+  //first triangle
+  push();
+  translate(190, 250);
+  rotate(45);
+  triangle(0, 0, -40, -100, 40, -100);
+  pop();
+  
+  //second triangle
+  push();
+  translate(210, 250)
+  rotate(-45);
+  triangle(0, 0, -40, -100, 40, -100);
+  pop();
+  
+  //third triangle 
+  push();
+  translate(200,250)
+  rotate(44);
+  triangle(0, 0, -40, -100, 40, -100);
+  pop();
+
+  blendmode(BLEND);
+}
+
+The differences in interpretation at all stages:
+V1 - I debated if I skip on the background, and just blend colors together so it looks like professional work, it looks way more abstract, felt like I wasn't covering all the key points mentioned in the description my partner gave me.
+V2 - I debated on how to make it look more realistic and to the description, decided on overlapping rather than them just together, and included that it be a bit opaque to showcase the different parts of the "sails" of the boat. It ends up adding more depth. I think the challenge was finding out how to rotate the triangles to make them intersect and stand vertically.

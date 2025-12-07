@@ -1,13 +1,13 @@
 * {
   font-family: "IBM Plex Mono", monospace;
-  color: white; /* Default text color is white for the colored boxes */
+  color: white; 
   box-sizing: border-box;
 }
 
 html, body {
   margin: 0;
   padding: 0;
-  background-color: white; /* Dark background for the whole page */
+  background-color: white; 
 }
 
 a {
@@ -35,12 +35,12 @@ a {
 }
 
 .item1 {
-  background-color: #279147; /* Green */
+  background-color: #279147; 
   grid-area: header;
 }
 
 .item2 {
-  background-color: #dec314; /* Yellow */
+  background-color: #dec314;
   grid-area: menu;
   display: flex;
   flex-direction: column;
@@ -48,12 +48,12 @@ a {
 }
 
 .item3 {
-  background-color: #14a2f5; /* Blue */
+  background-color: #14a2f5; 
   grid-area: main;
 }
 
 .item5 {
-  background-color: #eb4034; /* Red */
+  background-color: #eb4034; 
   grid-area: footer;
 }
 
@@ -70,18 +70,17 @@ a {
 }
 
 .project-grid-home {
-    display: flex; /* Enables flexible arrangement */
-    flex-wrap: wrap; /* Allows the items to break into multiple rows */
+    display: flex; 
+    flex-wrap: wrap; 
     gap: 10px; 
     margin-top: 15px;
 }
 
 .project-link {
     flex-grow: 1; 
-    /* First 4 projects take up ~25% width each */
     width: calc(25% - 8px); 
     
-    background-color: rgba(0, 0, 0, 0.2); /* Semi-transparent background */
+    background-color: rgba(0, 0, 0, 0.2); 
     padding: 15px 10px;
     text-align: center;
     border-radius: 4px;
@@ -96,7 +95,7 @@ a {
 
 .project-link:hover {
     background-color: white; 
-    color: #14a2f5; /* Blue text on white hover */
+    color: #14a2f5; 
 }
 
 .project-header, 
@@ -139,15 +138,24 @@ a {
 
 .p5-sketch-embed {
     padding: 0;
-    margin: 0; 
-    margin-bottom: 20px; 
-    width: 100%; 
+    margin: 0;
+    margin-bottom: 20px;
+    width: 100%;
 }
 
 .p5-sketch-embed iframe {
   width: 100%;
   display: block;
   border: none;
+}
+
+#p5-canvas-container {
+  margin: 0 auto 20px auto;
+  text-align: center;
+}
+
+#p5-canvas-container canvas {
+  display: inline-block;
 }
 
 .project-details {
@@ -167,7 +175,6 @@ a {
   border-top: 1px solid #eee; 
 }
 
-/* Base style for the navigation links */
 .nav-link {
   text-decoration: none; 
   padding: 0.5em 1em;
